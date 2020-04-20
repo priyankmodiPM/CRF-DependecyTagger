@@ -29,7 +29,7 @@ parameters['word_lstm_dim'] = 300
 parameters['all_emb'] = 1
 parameters['crf'] = 0 #Disabled 
 parameters['dropout'] = 0.3
-parameters['epoch'] = 2
+parameters['epoch'] = 20
 parameters['weights'] = ""
 parameters['name'] = sys.argv[3]
 parameters['gradient_clip'] = 5.0
@@ -547,8 +547,8 @@ def get_chunks(seq, tags):
     """
     
     # We assume by default the tags lie outside a named entity
-    # print(tags[0])
-    default = tags["प्राचीन"]
+    # print(tags)
+    default = tags["rh"]
     
     idx_to_tag = {idx: tag for tag, idx in tags.items()}
     
@@ -678,8 +678,8 @@ def main(argv):
     word_embeds = np.random.uniform(-np.sqrt(0.06), np.sqrt(0.06), (len(data_model.word2index), parameters['word_dim']))
     word_embeds = index_to_embed(word_embeds, data_model.word2index, data_model.joint_embeds)
 
-    data_model.tag2index[START_TAG] = 3
-    data_model.tag2index[STOP_TAG] = 4
+    data_model.tag2index[START_TAG] = 54
+    data_model.tag2index[STOP_TAG] = 55
     print(data_model.tag2index)
     # print((data_model.word2index))
     model = Parallel_LSTM_CRF(vocab_size=len(data_model.word2index)+1,

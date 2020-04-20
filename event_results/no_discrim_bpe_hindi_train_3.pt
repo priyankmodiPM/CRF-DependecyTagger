@@ -1,0 +1,12 @@
+Sentences in train / dev  : 403 : 44
+Epoch :1
+403 : tensor(2.9155)
+Data: Test New_F1 Score: 0.29768137621540763
+Best_F1 Score: -1.0 Best Precision: -1.0 Best Recall: -1.0
+
+Epoch :2
+806 : tensor(2.0391)
+Data: Test New_F1 Score: 0.4117946110828673
+Best_F1 Score: 0.29768137621540763 Best Precision: 0.292360430950049 Best Recall: 0.30319959370238697
+
+Epoch :3

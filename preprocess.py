@@ -247,7 +247,7 @@ class Model_Data:
 		current_sentence = []
 		current_tags = []
 		count = 0
-		with open("./data/preprocessed_train3.dat",'r') as f:
+		with open("./data/preprocessed_train2.dat",'r') as f:
 			for line in tqdm(f.readlines(),desc="[INFO] -> Reading data."):	
 				if len(line.split()) == 0:
 					if len(current_sentence) > self.max_length:
@@ -260,10 +260,10 @@ class Model_Data:
 					all_pairs.append([sent,label,lang])
 					current_sentence = []
 					current_tags = []
-				elif line.split()[0] == "<s>":
-					count+=1
-				elif line.split()[0] == "</s>":
-					pass
+				# elif line.split()[0] == "<s>":
+				# 	count+=1
+				# elif line.split()[0] == "":
+				# 	pass
 				else:
 					if line.split()[1] == "Temp":
 						print("aa")
@@ -334,7 +334,7 @@ class Model_Data:
 		all_pairs = []
 		current_sentence = []
 		current_tags = []
-		with open("./data/preprocessed_test2.dat",'r') as f:
+		with open("./data/preprocessed_test1.dat",'r') as f:
 			for line in tqdm(f.readlines(),desc="[INFO] -> Reading data."):
 				if len(line.split()) == 0:
 					if len(current_sentence) > self.max_length:
