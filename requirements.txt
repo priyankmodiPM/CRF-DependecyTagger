@@ -1,0 +1,5 @@
+gensim==3.8.1
+bpemb==0.3.0
+torch==0.4.1
+numpy==1.17.3
+tqdm==4.37.0
