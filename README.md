@@ -16,9 +16,15 @@ python3 predictor.py bpe_hindi_train_3.pt 1 hindi_1 predict.txt
 ```
 
 Predictor Output:
-//The output of the predictor is in the format :
+The output of the predictor is in the format :
+
 list of (chunk_type, chunk_start, chunk_end)
-//Example:
+
+Example:
+```
 seq = [4, 5, 0, 3]
 tags = {"B-PER": 4, "I-PER": 5, "B-LOC": 3}
 result = [("PER", 0, 2), ("LOC", 3, 4)]
+```
+
+Link to model : https://github.com/priyankmodiPM/CRF-DependecyTagger/models/hindi_1
