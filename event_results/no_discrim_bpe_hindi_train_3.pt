@@ -1,12 +1,96 @@
-Sentences in train / dev  : 403 : 44
+Sentences in train / dev  : 1569 : 174
 Epoch :1
-403 : tensor(2.9155)
-Data: Test New_F1 Score: 0.29768137621540763
+1569 : tensor(13.3074, device='cuda:0')
+Data: Test New_F1 Score: 0.5772466671271672
 Best_F1 Score: -1.0 Best Precision: -1.0 Best Recall: -1.0
 
 Epoch :2
-806 : tensor(2.0391)
-Data: Test New_F1 Score: 0.4117946110828673
-Best_F1 Score: 0.29768137621540763 Best Precision: 0.292360430950049 Best Recall: 0.30319959370238697
+3138 : tensor(12.4258, device='cuda:0')
+Data: Test New_F1 Score: 0.6831710479132762
+Best_F1 Score: 0.5772466671271672 Best Precision: 0.5833961631900813 Best Recall: 0.5712254607097939
 
 Epoch :3
+4707 : tensor(12.0817, device='cuda:0')
+Data: Test New_F1 Score: 0.7195440054101052
+Best_F1 Score: 0.6831710479132762 Best Precision: 0.6892741845708561 Best Recall: 0.6771750423798326
+
+Epoch :4
+6276 : tensor(11.8189, device='cuda:0')
+Data: Test New_F1 Score: 0.7584591358667361
+Best_F1 Score: 0.7195440054101052 Best Precision: 0.72647214558426 Best Recall: 0.712746759993438
+
+Epoch :5
+7845 : tensor(11.5367, device='cuda:0')
+Data: Test New_F1 Score: 0.7607365307819165
+Best_F1 Score: 0.7584591358667361 Best Precision: 0.7600208653634966 Best Recall: 0.7569038114507574
+
+Epoch :6
+9414 : tensor(11.1360, device='cuda:0')
+Data: Test New_F1 Score: 0.7673948053020606
+Best_F1 Score: 0.7607365307819165 Best Precision: 0.7584313938636302 Best Recall: 0.7630557226445016
+
+Epoch :7
+10983 : tensor(10.3323, device='cuda:0')
+Data: Test New_F1 Score: 0.7802167724983576
+Best_F1 Score: 0.7673948053020606 Best Precision: 0.7726806552651274 Best Recall: 0.7621807841636135
+
+Epoch :8
+12552 : tensor(8.9633, device='cuda:0')
+Data: Test New_F1 Score: 0.7737845292495164
+Best_F1 Score: 0.7802167724983576 Best Precision: 0.7810290974847937 Best Recall: 0.7794061355060973
+
+Epoch :9
+14121 : tensor(6.3503, device='cuda:0')
+Data: Test New_F1 Score: 0.776858373794707
+Best_F1 Score: 0.7802167724983576 Best Precision: 0.7810290974847937 Best Recall: 0.7794061355060973
+
+Epoch :10
+15690 : tensor(3.1163, device='cuda:0')
+Data: Test New_F1 Score: 0.7797316374501447
+Best_F1 Score: 0.7802167724983576 Best Precision: 0.7810290974847937 Best Recall: 0.7794061355060973
+
+Epoch :11
+17259 : tensor(2.2806, device='cuda:0')
+Data: Test New_F1 Score: 0.7843474933027172
+Best_F1 Score: 0.7802167724983576 Best Precision: 0.7810290974847937 Best Recall: 0.7794061355060973
+
+Epoch :12
+18828 : tensor(1.9266, device='cuda:0')
+Data: Test New_F1 Score: 0.781481937097634
+Best_F1 Score: 0.7843474933027172 Best Precision: 0.7841760043727795 Best Recall: 0.7845190572537868
+
+Epoch :13
+20397 : tensor(1.6296, device='cuda:0')
+Data: Test New_F1 Score: 0.7856252311992218
+Best_F1 Score: 0.7843474933027172 Best Precision: 0.7841760043727795 Best Recall: 0.7845190572537868
+
+Epoch :14
+21966 : tensor(1.4431, device='cuda:0')
+Data: Test New_F1 Score: 0.7828460677531186
+Best_F1 Score: 0.7856252311992218 Best Precision: 0.7873403817108334 Best Recall: 0.7839175370481763
+
+Epoch :15
+23535 : tensor(1.2962, device='cuda:0')
+Data: Test New_F1 Score: 0.7872868004657854
+Best_F1 Score: 0.7856252311992218 Best Precision: 0.7873403817108334 Best Recall: 0.7839175370481763
+
+Epoch :16
+25104 : tensor(1.1016, device='cuda:0')
+Data: Test New_F1 Score: 0.7835172961573224
+Best_F1 Score: 0.7872868004657854 Best Precision: 0.7889404464457319 Best Recall: 0.7856400721824247
+
+Epoch :17
+26673 : tensor(0.9171, device='cuda:0')
+Data: Test New_F1 Score: 0.7859735634545579
+Best_F1 Score: 0.7872868004657854 Best Precision: 0.7889404464457319 Best Recall: 0.7856400721824247
+
+Epoch :18
+28242 : tensor(0.6470, device='cuda:0')
+Data: Test New_F1 Score: 0.7882203285505204
+Best_F1 Score: 0.7872868004657854 Best Precision: 0.7889404464457319 Best Recall: 0.7856400721824247
+
+Epoch :19
+29811 : tensor(0.4602, device='cuda:0')
+Data: Test New_F1 Score: 0.7861557816431464
+Best_F1 Score: 0.7882203285505204 Best Precision: 0.78864102915013 Best Recall: 0.787800076557117
+

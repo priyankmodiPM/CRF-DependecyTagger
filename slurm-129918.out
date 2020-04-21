@@ -1,0 +1,152 @@
+==========================================
+SLURM_JOB_ID = 129918
+SLURM_NODELIST = gnode14
+SLURM_JOB_GPUS = 0,1,2,3
+==========================================
+True
+bpe_hindi_train_3.pt
+[INFO] -> Train Data Sentences.
+1569
+[INFO] -> Valid Data Sentences.
+174
+[INFO] -> Test Data Sentences.
+1804
+{'lwg__vaux': 30, 'r6-k2': 11, 'nmod__emph': 61, 'nmod__relc': 37, 'k7u': 21, 'k4': 18, 'r6': 23, 'ras-k1': 14, 'rsym': 33, 'k2': 17, 'rt': 57, 'nmod__adj': 29, 'k1u': 36, 'ras-k2': 43, 'undef': 42, 'k7tu': 6, 'pof__cn': 58, 'ras-pof': 51, 'k1s': 8, 'k2p': 45, 'rad': 56, 'lwg__rp': 59, 'k5': 9, 'k1': 24, 'mod__wq': 63, '<s>': 54, 'r6v': 25, 'sent-adv': 2, 'k7p': 40, 'vmod': 35, 'rh': 19, 'k2s': 27, 'main': 3, 'ras-neg': 55, 'rbmod__relc': 38, 'ccof': 22, 'k4a': 10, 'nmod__pofinv': 32, 'mod': 53, 'pof': 47, 'k7a': 50, 'rsp': 1, 'pof__inv': 26, 'k7': 34, 'jjmod__intf': 5, 'ras-k7p': 44, 'nmod__k2inv': 7, 'k7t': 49, 'k2g': 0, 'fragof': 41, 'lwg__vaux_cont': 4, 'ras-k7': 62, 'jjmod': 31, 'lwg__psp': 52, 'nmod': 15, 'lwg__neg': 60, 'k2u': 39, 'adv': 16, '</s>': 55, 'rd': 46, 'nmod__k1inv': 20, 'rbmod': 28, 'k3': 48, 'rs': 12, 'pof__redup': 13, 'r6-k1': 54}
+55
+EP:  1
+Saving Model to ./models/hindi_1
+Best Dev F1:  0.5622886133032694
+Best Dev Precision:  0.5674061433447098
+Best Dev Recall:  0.5572625698324022
+
+Best Test F1:  0.5772466671271672
+Best Test Precision:  0.5833961631900813
+Best Test Recall:  0.5712254607097939
+New F:  0.5772466671271672
+
+Total Time Elapsed : 1289.787457704544 
+
+EP:  2
+Saving Model to ./models/hindi_1
+Best Dev F1:  0.670707640259374
+Best Dev Precision:  0.6770062606715993
+Best Dev Recall:  0.6645251396648044
+
+Best Test F1:  0.6831710479132762
+Best Test Precision:  0.6892741845708561
+Best Test Recall:  0.6771750423798326
+New F:  0.6831710479132762
+
+Total Time Elapsed : 2571.070083141327 
+
+EP:  3
+Saving Model to ./models/hindi_1
+Best Dev F1:  0.718071609811108
+Best Dev Precision:  0.7248150256118384
+Best Dev Recall:  0.7114525139664805
+
+Best Test F1:  0.7195440054101052
+Best Test Precision:  0.72647214558426
+Best Test Recall:  0.712746759993438
+New F:  0.7195440054101052
+
+Total Time Elapsed : 3850.933478116989 
+
+EP:  4
+Saving Model to ./models/hindi_1
+Best Dev F1:  0.7607172877556739
+Best Dev Precision:  0.7630691399662732
+Best Dev Recall:  0.7583798882681564
+
+Best Test F1:  0.7584591358667361
+Best Test Precision:  0.7600208653634966
+Best Test Recall:  0.7569038114507574
+New F:  0.7584591358667361
+
+Total Time Elapsed : 5130.494374036789 
+
+EP:  5
+Total Time Elapsed : 6413.642797470093 
+
+EP:  6
+Saving Model to ./models/hindi_1
+Best Dev F1:  0.7708978328173374
+Best Dev Precision:  0.7768009075439591
+Best Dev Recall:  0.7650837988826815
+
+Best Test F1:  0.7673948053020606
+Best Test Precision:  0.7726806552651274
+Best Test Recall:  0.7621807841636135
+New F:  0.7673948053020606
+
+Total Time Elapsed : 7693.888884067535 
+
+EP:  7
+Saving Model to ./models/hindi_1
+Best Dev F1:  0.7783209945523117
+Best Dev Precision:  0.7784297289745739
+Best Dev Recall:  0.7782122905027933
+
+Best Test F1:  0.7802167724983576
+Best Test Precision:  0.7810290974847937
+Best Test Recall:  0.7794061355060973
+New F:  0.7802167724983576
+
+Total Time Elapsed : 8975.061880111694 
+
+EP:  8
+Total Time Elapsed : 10258.169944763184 
+
+EP:  9
+Total Time Elapsed : 11541.709419965744 
+
+EP:  10
+Total Time Elapsed : 12825.74820613861 
+
+EP:  11
+Saving Model to ./models/hindi_1
+Best Dev F1:  0.7858337981037368
+Best Dev Precision:  0.784521158129176
+Best Dev Recall:  0.7871508379888268
+
+Best Test F1:  0.7843474933027172
+Best Test Precision:  0.7841760043727795
+Best Test Recall:  0.7845190572537868
+New F:  0.7843474933027172
+
+Total Time Elapsed : 14107.33522105217 
+
+EP:  12
+Total Time Elapsed : 15389.015160560608 
+
+EP:  13
+Total Time Elapsed : 16669.526467084885 
+
+EP:  14
+Saving Model to ./models/hindi_1
+Best Dev F1:  0.7891364902506963
+Best Dev Precision:  0.7869444444444444
+Best Dev Recall:  0.791340782122905
+
+Best Test F1:  0.7856252311992218
+Best Test Precision:  0.7873403817108334
+Best Test Recall:  0.7839175370481763
+New F:  0.7828460677531186
+
+Total Time Elapsed : 17952.373923540115 
+
+EP:  15
+Total Time Elapsed : 19233.983666419983 
+
+EP:  16
+Total Time Elapsed : 20517.04805469513 
+
+EP:  17
+Total Time Elapsed : 21800.00251340866 
+
+EP:  18
+Total Time Elapsed : 23089.689043045044 
+
+EP:  19
+Total Time Elapsed : 24379.33034348488 
+
